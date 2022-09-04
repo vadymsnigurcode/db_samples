@@ -6,3 +6,5 @@ CREATE table person(ID INT PRIMARY KEY NOT NULL, name CHAR(255), surname CHAR(25
 
 INSERT INTO person (ID, name, surname, birth_date)
 VALUES(1, 'pname','psurname',datetime('now', 'localtime'));
+
+DELETE person;
